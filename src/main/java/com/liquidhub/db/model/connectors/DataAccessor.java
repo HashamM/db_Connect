@@ -40,5 +40,20 @@ public interface DataAccessor {
      */
     public boolean executeInsertQuery(String query) throws SQLException;
 
+
+    /**
+     *  Execute Update query and returns
+     *  @param query
+     *  @throws SQLException
+     */
+    public boolean executeUpdateQuery(String query) throws SQLException;
+
+
+    /**
+     *  Execute Delete query and returns
+     *  @param query
+     *  @throws SQLException
+     */
+    public boolean executeDeleteQuery(String query) throws SQLException;
     
 }
