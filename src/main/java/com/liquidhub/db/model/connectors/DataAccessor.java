@@ -41,5 +41,4 @@ public interface DataAccessor {
     public boolean executeInsertQuery(String query) throws SQLException;
 
     
-    
 }
