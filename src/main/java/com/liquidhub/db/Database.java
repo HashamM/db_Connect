@@ -18,13 +18,12 @@ public class Database {
      * @param password the database password.
      */
     public Database(String host,String port,String database,String user,String password) {
-        this.host =host;
+        this.host = host;
         this.port = port;
-        this.database =database;
+        this.database = database;
         this.user = user;
         this.password = password;
     }
-
 
     /**
      * @return the host
