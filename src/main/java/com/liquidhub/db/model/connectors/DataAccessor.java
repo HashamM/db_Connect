@@ -17,7 +17,6 @@ public interface DataAccessor {
     public void initialize(Database database) throws ClassNotFoundException, SQLException;
 
     /**
-     *
      * @param host - The database hostname.
      * @param port - The database port.
      * @param database - The database name.
